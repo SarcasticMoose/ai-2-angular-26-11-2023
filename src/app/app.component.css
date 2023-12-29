@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: var(--primary-color); /* Material UI blue */
+  color: white;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+}
+
+nav {
+  display: flex;
+}
+
+.router-outlet {
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+footer {
+  background-color: #2196f3; /* Match the header color */
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: auto; /* Push the footer to the bottom */
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Stick to the bottom */
+}
+
+footer {
+  background-color: #2196f3; /* Material UI blue */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin-left: 10px;
+  background-color: #f44336; /* Material UI red */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* Optional: Add styles for links on hover */
+header a:hover {
+  text-decoration: underline;
+}

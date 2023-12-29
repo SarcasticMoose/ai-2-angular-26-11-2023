@@ -1,0 +1,13 @@
+main {
+  text-align: center;
+  margin-top: 50px; /* Adjust as needed for spacing */
+}
+
+.total {
+  font-size: 24px; /* Adjust the font size as needed */
+  background-color: #2196f3; /* Material UI blue */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block; /* Make it inline-block to wrap around the text */
+}

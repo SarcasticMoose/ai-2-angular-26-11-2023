@@ -1,0 +1,43 @@
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #2196f3; /* Material UI blue */
+}
+
+.users {
+  list-style: none;
+  padding: 0;
+}
+
+.user {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
+}
+
+.user:hover {
+  background-color: #f5f5f5;
+}
+
+.role-badge {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.role-user {
+  background-color: #4caf50; /* Material UI green */
+  color: white;
+}
+
+.role-admin {
+  background-color: #f44336; /* Material UI red */
+  color: white;
+}

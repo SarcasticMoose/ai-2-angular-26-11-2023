@@ -1,0 +1,9 @@
+main {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f44336; /* Material UI red */
+  color: white;
+  border-radius: 5px;
+}
